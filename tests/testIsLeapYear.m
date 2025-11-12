@@ -17,6 +17,7 @@ classdef testIsLeapYear < matlab.unittest.TestCase
             % Extract input and expected output from parameter for clarity
             year = yearAndIsLeapYear{1};
             expected_isLeap = yearAndIsLeapYear{2};
+            
 
             % Exercise the code
             actual_isLeap = isLeapYear(year);
